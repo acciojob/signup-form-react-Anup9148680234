@@ -1,0 +1,20 @@
+span {
+    color: red ;
+    display: none ;
+  }
+ 
+.name-input:empty + span{
+    display: block ;
+}
+
+.email-input:empty + span {
+    display: block ;
+  }
+
+.phonenumber-input:empty + span {
+    display: block ;
+}
+  
+.password-input:empty + span {
+    display: block ;
+  }
